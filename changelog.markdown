@@ -1,5 +1,9 @@
 # Changelog
 
+##  0.2.3 - March 27, 2013
+
+* Updated nokogiri to 0.5.9 while freezing the rest of the code on old version
+
 ##  0.2.2 - March 3, 2010
 
 * Removed Crack as a dependency, Nokogiri FTW

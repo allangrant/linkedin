@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name = %q{linkedin}
-  s.version  = "0.2.2"
+  s.version  = "0.2.3"
   s.platform = Gem::Platform::RUBY
 
   s.authors = ["Wynn Netherland", "Josh Kalderimis"]
@@ -27,20 +27,20 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<oauth>,       ["~> 0.4.0"])
-      s.add_runtime_dependency(%q<nokogiri>,    ["~> 1.4.4"])
+      s.add_runtime_dependency(%q<nokogiri>,    ["~> 1.5.9"])
       s.add_development_dependency(%q<rspec>,   ["~> 2.4.0"])
       s.add_development_dependency(%q<rake>,    ["~> 0.8.7"])
       s.add_development_dependency(%q<webmock>, ["~> 1.6.0"])
     else
       s.add_dependency(%q<oauth>,     ["~> 0.4.0"])
-      s.add_dependency(%q<nokogiri>,  ["~> 1.4.4"])
+      s.add_dependency(%q<nokogiri>,  ["~> 1.5.9"])
       s.add_dependency(%q<rspec>,     ["~> 2.4.0"])
       s.add_dependency(%q<rake>,      ["~> 0.8.7"])
       s.add_dependency(%q<webmock>,   ["~> 1.6.0"])
     end
   else
     s.add_dependency(%q<oauth>,     ["~> 0.4.0"])
-    s.add_dependency(%q<nokogiri>,  ["~> 1.4.4"])
+    s.add_dependency(%q<nokogiri>,  ["~> 1.5.9"])
     s.add_dependency(%q<rspec>,     ["~> 2.4.0"])
     s.add_dependency(%q<rake>,      ["~> 0.8.7"])
     s.add_dependency(%q<webmock>,   ["~> 1.6.0"])
